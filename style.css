@@ -1,0 +1,29 @@
+body {
+    margin: auto 0;
+    width: 100%;
+}
+
+header {
+    height: 120px;
+    background-color: chocolate;
+}
+
+nav {
+    height: 60px;
+    background-color: coral;
+}
+
+.app-container {
+    height: 730px;
+    background-color: olive;
+}
+
+.app-div {
+    height: 730px;
+    background-color: olivedrab;
+}
+
+.sports-container {
+    height: 426px;
+    background-color: orchid;
+}
