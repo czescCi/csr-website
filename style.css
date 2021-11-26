@@ -13,17 +13,19 @@ nav {
     background-color: coral;
 }
 
-.app-container {
+#logo {
+    height: 100%;
+}
+
+.container {
     height: 730px;
     background-color: olive;
 }
 
-.app-div {
-    height: 730px;
-    background-color: olivedrab;
+.app-div-right img {
+    height: 600px;
 }
 
-.sports-container {
-    height: 426px;
-    background-color: orchid;
+.item-img img {
+    height: 150px;
 }
