@@ -1,18 +1,13 @@
 html {
     height: 100%;
 }
+
 :root {
   --red-color: rgb(252, 69, 71);
   --green-color: rgb(9, 50, 54);
   --light-green-color: rgb(184, 218, 194);
   --grey-color: rgb(206, 201, 193);
 }
-/* kolory
-czerw 252, 69, 71
-ziel 9, 50, 54
-jasny ziel 184, 218, 194
-czarny 21, 21, 21
-szary 206, 201, 193 */
 
 body {
     height: 100%;
@@ -115,21 +110,16 @@ main {
     filter: brightness(0) invert(1);
 }
 
-footer ion-icon {
-    color: white;
-    font-size: 22px;
-    cursor: pointer;
+.icons {
+  font-size: 20px;
+  color: var(--grey-color);
 }
 
 footer h3 {
   color: var(--light-green-color)
 }
+
 /* 
-:root {
-    --primary-color: rgba(13, 110, 139, 0.75);
-    --overlay-color: rgba(24, 39, 51, 0.85);
-    --menu-speed: 0.75s;
-}
 
 .menu-wrap {
     position: fixed;
