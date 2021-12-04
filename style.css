@@ -85,9 +85,18 @@ main {
 }
 
 .item {
-  display: inline-block;
+  display: block;
+  float: left;
   padding: 10px;
 }
+
+/* @media screen and (max-width: 987px) {
+  .item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+} */
 
 .item h2 {
   text-align: center;
@@ -115,8 +124,21 @@ main {
   color: var(--grey-color);
 }
 
+.ri-facebook-circle-fill {
+  padding-right: 5px;
+}
+
 footer h3 {
-  color: var(--light-green-color)
+  color: var(--light-green-color);
+  margin: 0 0 10px 0;
+}
+
+#adres p {
+  margin: 0 0 5px 0;
+}
+
+#contact p {
+  margin: 5px 0;
 }
 
 /* 
